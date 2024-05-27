@@ -1,0 +1,54 @@
+# Recommendation Engine Mini-Assignment
+
+## Objective
+Your task is to implement a basic recommendation engine that can match offers to users based on their profile.
+
+## Dataset Synthesis
+Create a small dataset for this assignment:
+
+1. `user_profiles.csv`: Create a dataset containing user profile information with at least 100 users. Include attributes such as age, gender, and interests. Some examples of user credentials are:
+   - "marathon runner"
+   - "pottery fan"
+   - "book worm"
+
+2. `offers.csv`: Create a dataset containing information about at least 20 available offers. Include offer details and target audience information that can be matched with user profiles.
+
+## Basic Recommendation Engine
+1. Load and preprocess the `user_profiles.csv` and `offers.csv` datasets.
+2. Implement a simple recommendation engine that matches offers to users based on their profile. You can use techniques such as content-based filtering or a rule-based approach.
+3. Evaluate the performance of your recommendation engine using a suitable metric such as precision or recall.
+4. Provide a brief report explaining your approach and the evaluation results.
+
+## Bonus: Attribution to User Credentials
+In a separate section of your report, describe in words how you would approach attributing the importance of each user credential in the matching process. Consider the following:
+- How would you determine the impact of each user credential on the recommendation engine's output?
+- What techniques or methods could be used to quantify the contribution of each credential?
+- How would you interpret and communicate the results of the attribution analysis?
+
+## Bonus: Privacy Preservation
+In another section of your report, discuss how you would incorporate privacy preservation techniques into the recommendation engine. Address the following points:
+- What privacy risks or concerns are associated with using user profile data in a recommendation system?
+- What privacy preservation techniques could be applied to mitigate these risks?
+- How would you balance the trade-off between privacy and recommendation quality?
+- What steps would you take to ensure user data remains protected while still providing meaningful recommendations?
+
+## Deliverables
+1. A Jupyter notebook containing the code for data synthesis and the basic recommendation engine.
+2. A report in PDF format documenting the following:
+   - Your approach, methodology, and evaluation results for the basic recommendation engine.
+   - A section discussing the attribution of user credentials (bonus).
+   - A section discussing privacy preservation techniques (bonus).
+3. The synthesized datasets used for training and evaluation.
+
+## Evaluation Criteria
+Your assignment will be evaluated based on the following criteria:
+- Quality and relevance of the synthesized datasets
+- Correctness and effectiveness of the basic recommendation engine
+- Clarity and organization of the codebase
+- Quality and completeness of the documentation and report
+- Thoughtfulness and feasibility of the attribution and privacy preservation discussions (bonus)
+
+## Submission
+Please submit your assignment by [deadline] via [submission method]. If you have any questions or need further clarification, feel free to reach out to [contact information].
+
+Good luck with the assignment!
